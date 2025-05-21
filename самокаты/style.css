@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.cart {
+  border: 0;
+  width: 75px;
+  height: 75px;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: #6f73ee;
+  transition: 0.1s;
+  cursor: pointer;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  padding: 15px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.cart-icon {
+  color: #fff;
+}
+.cart:hover {
+  transform: scale(1.1);
+}
+
+.cart__num {
+  position: absolute;
+  background-color: #d62240;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  top: -5px;
+  right: -5px;
+}
+.card {
+  width: 255px;
+  height: 530px;
+  border-radius: 10px;
+border: 1.5px solid #EAEBED;
+}
+.card-top p {
+  padding: 4px 9px 4px 9px;
+  text-align: center;
+  color: var(--White, #fff);
+  font-family: Jost;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 40px;
+  border-radius: 5px;
+  background: #ee685f;
+}
+.card-top {
+  background-image: url(./img/samokat.png);
+  background-repeat: no-repeat;
+  width: 255px;
+  height: 231px;
+
+}
+.hit {
+  display: flex;
+  align-items: first baseline;
+  gap: 160px;
+  text-align: center;
+  justify-content: center;
+}
+.arrows {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.cards h2 {
+  color: var(--Black, #282739);
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-info {
+  padding-left: 24px;
+  padding-right: 25px;
+}
+.parametry {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--Gray-600, #5d6c7b);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.price p {
+  color: var(--Gray-600, #5d6c7b);
+  font-family: Jost;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+.price h3 {
+  color: var(--Black, #282739);
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cart-heart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#heart {
+  color: #6f73ee;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.card-info button {
+  cursor: pointer;
+  border: 0;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Jost;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 206px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: var(--Purple, #6f73ee);
+}
+.cards {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 30px;
+}
+.new p {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Jost;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 63px;
+  border-radius: 5px;
+  background: #75d14a;
+}
+.new {
+  display: flex;
+  align-items: first baseline;
+  gap: 145px;
+  text-align: center;
+  justify-content: center;
+}
